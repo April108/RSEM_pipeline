@@ -2,7 +2,6 @@ rsem-calculate-expression --paired-end \
     --star \
     --star-path /path/to/STAR \
     --phred33-quals \
-    --gzipped-read-file \
     --estimate-rspd \
     --seed 42 \ # set seed 
     --output-genome-bam \
