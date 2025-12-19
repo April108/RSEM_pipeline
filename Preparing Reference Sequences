@@ -2,4 +2,4 @@ rsem-prepare-reference --gtf gencode.v49.annotation.gtf \ # download from GENCOD
                        --star \   # using star 
                        --star-path /sw/STAR \           
                        GRCh38.primary_assembly.genome.fa \  # download from GENCODE 
-                       ./ref/human_gencode  
+                       ./ref/human_gencode  # set prefix
